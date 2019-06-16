@@ -1,0 +1,79 @@
+.container{
+    
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    
+
+}
+.stripe{
+   
+    border: 1px solid white;
+}
+.header{
+    background-color: black;
+    color: white;    
+    position:fixed;
+    top: 0;
+    width:100%;  
+    
+}
+.header .hamburger .slice{
+    width: 30px;
+    height:5px;
+    background-color: white;
+    margin: 0px;
+    padding:2%;
+}
+.header .hamburger .slice{
+    margin: 5px 0px;
+    
+} 
+.header .hamburger{
+    display: none;
+    list-style-type:none
+}
+@media screen and (max-width: 700px){
+    .header .hamburger{
+        display:inline-block;        
+    }
+    .header .topmenu{
+        display: none;        
+    }
+    .topmenu01.apple{
+       text-align: center;
+    }
+    .bunner.stripe{
+        display:flex;
+        flex-flow: column;       
+    }
+    .tv01,.tv02{
+        width: 100%;
+        height: 40%;
+    }
+    .lists.stripe a{
+        display:none; 
+        display:flex;
+        flex-flow: column;
+    }
+    .lists.stripe a{
+        display:none;
+    }
+}
+
+
+a{
+    text-decoration:none;  
+}
+.menu{
+    list-style-type: none;
+    display:flex;
+}
+.topmenu, .topmenu01{
+    flex:1; 
+     
+ }
+ .iphonex.stripe{
+     text-align: center;
+     background-color: #fafafa;     
+     padding:5%;
+    
+ }
