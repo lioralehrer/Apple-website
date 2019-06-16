@@ -4,6 +4,21 @@
     
 
 }
+
+.banner:not(.promo) a {
+    font-size: 21px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 10px;
+    color: #0070c9;
+}
+
+.banner a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 .stripe{
    
     border: 1px solid white;
